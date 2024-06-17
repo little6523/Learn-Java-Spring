@@ -24,7 +24,7 @@ GIF Images
 
 | JavaScript | TypeScript |  React   |  Node   |
 | :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
+|   ![java]    |   ![ts]    | ![react] | ![node] |
 
 <br>
 
@@ -54,7 +54,7 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
-[js]: /images/stack/javascript.svg
+[java]: /images/stack/java.svg
 [ts]: /images/stack/typescript.svg
 [react]: /images/stack/react.svg
 [node]: /images/stack/node.svg
