@@ -22,7 +22,7 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
+| Java | Spring |  React   |  Node   |
 | :--------: | :--------: | :------: | :-----: |
 |   ![java]    |   ![ts]    | ![react] | ![node] |
 
@@ -55,6 +55,6 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 <!-- Stack Icon Refernces -->
 
 [java]: /images/stack/java.svg
-[ts]: /images/stack/typescript.svg
+[ts]: /images/stack/spring.svg
 [react]: /images/stack/react.svg
 [node]: /images/stack/node.svg
