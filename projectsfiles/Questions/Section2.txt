@@ -1,0 +1,33 @@
+Q1. Spring Container vs Spring Context vs IOC Container vs Application Context
+
+- Spring Container: Spring Bean과 수명 주기 관리(= Spring Context, IOC Container)
+- Bean Factory: 기본 Spring Container
+- Application Context: Enterprise 전용 기능이 있는 고급 Spring Container
+-------------------------------------------------------------------------------------------------
+Q2. Java Bean vs Spring Bean
+
+- Java Bean
+  1. 인자가 없는 public 생성자를 가지고 있다.
+  2. Getter와 Setter메소드를 사용하여 프로퍼티에 액세스
+  3. Serializable 인터페이스를 구현(implement)
+
+- POJO: Plain Old Java Object
+  1. 아무런 제약이 없다.
+  2. 모든 Java 객체는 POJO이다.
+
+- Spring Bean
+  - Spring이 관리하는 모든 Java 객체
+  - IOC Container(Bean Factory or Application Context)로 객체를 관리한다.
+-------------------------------------------------------------------------------------------------
+Q3. How can I list all beans managed by Spring Framework
+
+- Spring Bean에서 관리하는 Bean 리스트 출력
+  Arrays.stream(context.getBeanDefinitionNames())
+          .forEach(System.out::println);
+-------------------------------------------------------------------------------------------------
+Q4. What if multiple matching beans are available?
+
+- @Primary로 기본 Bean을 정하고 @Qualifier를 통해 기본 Bean이 아닌 특정 Bean을 매칭
+-------------------------------------------------------------------------------------------------
+Q5. Spring is managing objects and performing auto-wiring
+ (But, aren't we writing the code to create objects?)
