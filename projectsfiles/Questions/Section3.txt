@@ -1,0 +1,3 @@
+-------------------------------------------------------------------------------------------------
+Q5. Spring is managing objects and performing auto-wiring
+ (But, aren't we writing the code to create objects?)
