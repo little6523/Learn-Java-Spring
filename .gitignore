@@ -125,3 +125,4 @@ fabric.properties
 *.xml
 *.iml
 *.mvn
+*.idea
