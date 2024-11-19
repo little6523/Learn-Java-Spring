@@ -5,7 +5,9 @@ const person = {
         city: 'London',
         country: 'UK'
     },
+
     profiles: ['twitter', 'linkedin', 'instagram'],
+    
     printProfile: () => {
         person.profiles.map(
             (profile) => {
