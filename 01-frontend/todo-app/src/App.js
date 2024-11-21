@@ -1,18 +1,36 @@
 import './App.css';
-import FirstComponent from './components/learning-examples/FirstComponent'
-import {FifthComponent} from './components/learning-examples/FirstComponent'
-import TenthComponent from './components/learning-examples/FirstComponent'
-import SecondComponent from './components/learning-examples/SecondComponent'
-import ThirdComponent from './components/learning-examples/ThirdComponent'
-import FourthComponent from './components/learning-examples/FourthComponent'
-import LearningComponent from './components/learning-examples/LearningComponent';
+import Counter from './components/counter/Counter'
 
 function App() {
   return (
     <div className="App">
-      <LearningComponent></LearningComponent>
+      <Counter by={1} />
+      <Counter by={2} />
+      <Counter by={5} />
+      <Counter />
+
     </div>
   );
+}
+
+// function PlayWithProps(properties) {
+//   console.log(properties)
+//   console.log(properties.property1)
+//   console.log(properties.property2)
+
+//   return (
+//     <div>Props</div>
+//   )
+// }
+
+function PlayWithProps({property1, property2}) {
+
+  console.log(property1)
+  console.log(property2)
+
+  return (
+    <div>Props</div>
+  )
 }
 
 export default App;
