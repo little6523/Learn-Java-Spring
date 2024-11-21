@@ -5,10 +5,6 @@ function App() {
   return (
     <div className="App">
       <Counter by={1} />
-      <Counter by={2} />
-      <Counter by={5} />
-      <Counter />
-
     </div>
   );
 }
