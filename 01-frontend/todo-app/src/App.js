@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './components/counter/Counter'
+import TodoApp from './components/todo/TodoApp'
 
 function App() {
   return (
     <div className="App">
-      <Counter by={1} />
+      <TodoApp />
     </div>
   );
 }
@@ -19,14 +19,14 @@ function App() {
 //   )
 // }
 
-function PlayWithProps({property1, property2}) {
+// function PlayWithProps({property1, property2}) {
 
-  console.log(property1)
-  console.log(property2)
+//   console.log(property1)
+//   console.log(property2)
 
-  return (
-    <div>Props</div>
-  )
-}
+//   return (
+//     <div>Props</div>
+//   )
+// }
 
 export default App;
